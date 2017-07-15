@@ -1,6 +1,6 @@
 <samples>
 	<re name="lava" N="2" width="100" height="100" indexed="True"/>
-	<re name="water1" N="3"/>
+	<!--<re name="water1" N="3"/>
 	<re name="forest1" N="1" width="400" height="400" screenshots="3"/>
 	<re name="forest1" N="2" width="400" height="400" M="5"/>	
 	<re name="forest1" N="3" polish="3" width="400" height="400"/>
@@ -35,5 +35,5 @@
 	<full name="vines" indexed="False" N="2" screenshots="2" width="32" height="32"/>
 	<full name="redfoam" indexed="False" N="3" screenshots="2" width="32" height="32"/>
 	<full name="redfoam" indexed="False" N="2" screenshots="2" width="32" height="32"/>
-	<full name="water2" indexed="False" N="3" screenshots="4" width="48" height="48"/>
+	<full name="water2" indexed="False" N="3" screenshots="4" width="48" height="48"/>-->
 </samples>

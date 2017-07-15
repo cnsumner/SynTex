@@ -22,8 +22,11 @@ static class Program
 	static void Main()
 	{
 		Stopwatch sw = Stopwatch.StartNew();
+		XmlReaderSettings readerSettings = new XmlReaderSettings();
+		readerSettings.IgnoreComments = true;
+		XmlReader reader = XmlReader.Create("samples.xml", readerSettings);
 		var xdoc = new XmlDocument();
-		xdoc.Load("samples.xml");
+		xdoc.Load(reader);
 		int pass = 1;
 
 		foreach (XmlNode xnode in xdoc.FirstChild.ChildNodes)
